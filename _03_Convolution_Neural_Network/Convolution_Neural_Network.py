@@ -13,9 +13,9 @@ import torchvision
 import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
 
-num_epochs = 20  # 50轮
-batch_size = 50  # 50步长
-learning_rate = 0.014
+num_epochs = 25  
+batch_size = 50 
+learning_rate = 0.11
 from torch.utils.data import DataLoader
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
